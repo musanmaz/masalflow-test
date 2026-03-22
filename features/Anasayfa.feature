@@ -1,7 +1,5 @@
-Feature: New Feature
-  Describe the feature being tested here.
+Feature: Anasayfa Test
 
   Scenario: First scenario
-    Given a precondition
-    When an action is performed
-    Then the expected result occurs
+    Given I navigate to "Turknet Anasayfa"
+    And I should see "Turknet Anasayfa.Altyapı Sorgula"
